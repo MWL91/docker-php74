@@ -4,3 +4,11 @@
 
 Go to docker-compose and rename `dockerphp74` into your project namespace.
 
+## Quick install
+
+```
+docker-compose up
+docker exec -it dockerphp74 bash
+```
+
+Curtain.

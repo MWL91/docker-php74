@@ -20,7 +20,7 @@ services:
   phpfpm:
     ports:
       - "6665:6001"
-    container_name: phpfpm
+    container_name: dockerphp74
     build: docker/containers/php-fpm
     command: bash -c "/etc/init.d/cron start && php-fpm -F"
     volumes:
